@@ -1,0 +1,72 @@
+.records-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.create-container {
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.create-form input, .create-form button {
+  margin-top: 16px;
+}
+
+.create-form button {
+    padding: 5px;
+    height: 36px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.title { 
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 0px; 
+}
+
+.chart-container {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chart-container span {
+  font-weight: 500;
+}
+
+.form-container input {
+  width: 110px;
+}
+
+.form-container th {
+  width: 105px;
+}
+
+.vaccine-form, .allergy-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.records-container {
+  padding: 20px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+}
